@@ -12,7 +12,6 @@ venv/
 .env.*
 
 # Model files
-ids_pipeline.pkl
 model.pkl
 model_metadata.json
 
