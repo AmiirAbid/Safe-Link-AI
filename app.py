@@ -18,7 +18,6 @@ PIPELINE_PACKAGE = None
 try:
     PIPELINE_PACKAGE = get_pipeline()  # returns the pipeline package dict or Pipeline object
     REQUIRED_FEATURES = get_required_features()
-    print(get_required_features())
 except Exception as e:
     # Keep startup going but mark pipeline as None and log error
     PIPELINE_PACKAGE = None
